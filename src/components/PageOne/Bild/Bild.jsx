@@ -1,11 +1,11 @@
 import React from 'react'
 import "./bild.css"
+import profilbild from "./rasmus2.jpg"
 
 export const Bild = () => {
   return (
     <div className="image">
-      <img src="./assets/rasmus2.jpg" alt="Rasmus Wersäll profilbild" />
+      <img src={profilbild} alt="Rasmus Wersäll profilbild" />
     </div>
-
   )
 }
