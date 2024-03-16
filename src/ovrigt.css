@@ -1,0 +1,7 @@
+.komp-wrapper {
+  display: flex;
+  display: row;
+}
+.komp-wrapper div {
+  min-width: 50%;
+}

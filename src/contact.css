@@ -1,0 +1,21 @@
+.contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 1rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.3rem;
+}
+.contact-info a {
+  display: flex;
+  text-decoration-line: none;
+  color: black;
+  align-items: center;
+}
+.contact-info a span {
+  text-indent: 0.3rem;
+}

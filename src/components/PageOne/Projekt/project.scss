@@ -1,0 +1,41 @@
+.project-wrapper{
+
+  ul{
+    display: block;
+  }
+  
+  h4{
+    text-align: center;
+    
+  }
+
+  h3{
+    text-shadow: 0px 0px 0.5px black;
+  }
+  
+  li, a{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .icon-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+
+  .project-info{
+    margin-bottom: 1.5rem;
+  }
+
+  // li h3{
+  //   width: 20%;
+  // }
+  
+  // li a{
+  //   width: 20%;
+  // }
+}
+
