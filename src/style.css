@@ -19,7 +19,7 @@
 }
 
 body {
-  background-image: url("./src/assets/backgg.jpg");
+  background-image: url("./assets/backgg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
