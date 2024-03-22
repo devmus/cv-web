@@ -64,13 +64,13 @@ export const Projekt = () => {
                 <span>Link</span>
               </div>
             </a>
-            <a target="_blank" href="https://github.com/devmus/todo-list/blob/main/README.md">
+            <a target="_blank" href="https://github.com/devmus/wen-tools/blob/prod/README.md">
               <div className="icon-wrapper">
                 <IconBook2/>
                 <span>ReadMe</span>
               </div>
             </a>
-            <a target="_blank" href="https://github.com/devmus/todo-list">
+            <a target="_blank" href="https://github.com/devmus/wen-tools/tree/prod">
               <div className="icon-wrapper">
                 <IconBrandGithub/>
                 <span>Github repo</span>
