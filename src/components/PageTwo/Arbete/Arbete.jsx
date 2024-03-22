@@ -1,5 +1,4 @@
 import React from 'react'
-import "./arbete.scss"
 import { IconCalendarTime } from '@tabler/icons-react'
 
 export const Arbete = () => {
@@ -12,7 +11,7 @@ export const Arbete = () => {
   return (
     <div>
       <h2>Arbetslivserfarenhet</h2>
-      <div class="divider div-transparent-2"></div>
+      <div className="divider div-transparent-2"></div>
         <h3>E-sport TV-production</h3>
         <div className="company">
           <h4>ESL FACEIT GROUP</h4>

@@ -1,6 +1,5 @@
 import { IconAccessible, IconBrandHtml5, IconBrandJavascript, IconBrandNodejs, IconBrandReact, IconBrandSass, IconBrandTypescript, IconCalendarTime, IconPalette, IconSeo, IconSquare, IconSquareCheck, IconTestPipe, IconWritingSign } from '@tabler/icons-react'
 import React from 'react'
-import "./ongoing.scss"
 
 export const Ongoing = () => {
   return (

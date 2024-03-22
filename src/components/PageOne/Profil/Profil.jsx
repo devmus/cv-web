@@ -1,5 +1,4 @@
 import React from 'react'
-import "./profil.scss"
 
 export const Profil = () => {
   return (

@@ -1,11 +1,21 @@
-# React + Vite
+### Rasmus Wersäll - CV
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Mitt CV för ansökan till praktik inom utbildningen till webbutvecklare inom web3 och blockchain på Medieinstitutet.
 
-Currently, two official plugins are available:
+## Dependancies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Byggt med React.js
+- Designat med SASS
+- Publicerat med GH-pages
+
+# Licences and mentions:
 
 Background image by:
 https://unsplash.com/photos/white-desk-lamp-beside-green-plant-BlIhVfXbi9s?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash
+
+This favicon was generated using the following font:
+
+- Font Title: Blinker
+- Font Author: Copyright 2019 the Blinker project authors (https://github.com/supertype-de/Blinker)
+- Font Source: https://fonts.gstatic.com/s/blinker/v13/cIf4MaFatEE-VTaP_JWERGEsnIJkWL4.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL)

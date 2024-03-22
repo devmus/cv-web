@@ -13,13 +13,11 @@ body{
   justify-content: center;
 	align-items: center;
 	margin: 3rem 0.3rem;
-	
 }
 
 .page-container{
   display: flex;
   flex-direction: column;
-  max-width: 1800px;
   gap: 5rem;
 	
 }
@@ -27,15 +25,15 @@ body{
 .page-one-container, .page-two-container{
   display: flex;
   align-items: center;
+	box-shadow: 3px 3px 10px 1px black;
 }
 
 .page-one, .page-two{
-  max-width: 21cm;
-	aspect-ratio: 1 / 1.4142;
+  max-width: 26cm;
   border: 0.5px solid rgba(1,1,1,0.2);
   padding: 20px 30px;
   background-color: rgba(255,255,255,0.98);
-  box-shadow: 3px 3px 10px 1px black;
+	position: relative;
 }
 
 a{
@@ -46,11 +44,3 @@ a{
  display: flex;
  gap: 3px;
 }
-
-// @media print {
-//   .page-one, .page-two {
-//   width: 210mm;
-//   height: 297mm;
-//   }
-// }
-

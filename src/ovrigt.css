@@ -5,3 +5,6 @@
 .komp-wrapper div {
   min-width: 50%;
 }
+.komp-wrapper .icon-wrapper {
+  align-items: center;
+}

@@ -4,7 +4,7 @@ export const Erfarenhet = () => {
   return (
     <div>
       <h2>Andra erfarenheter</h2>
-      <div class="divider div-transparent-2"></div>
+      <div className="divider div-transparent-2"></div>
         <h3>Röstmottagare</h3>
         <div className="company">
           <h4>Riksdagsvalet, Europavalet</h4>

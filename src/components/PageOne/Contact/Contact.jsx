@@ -1,6 +1,5 @@
 import { IconBrandLinkedin, IconCake, IconHome, IconMail, IconPhone } from '@tabler/icons-react'
 import React from 'react'
-import "./contact.scss"
 
 export const Contact = () => {
   return (

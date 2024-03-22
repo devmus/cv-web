@@ -9,13 +9,13 @@ export const Utbildning = () => {
   return (
     <div>
       <h2>Utbildning</h2>
-        <div class="divider div-transparent-2"></div>
+        <div className="divider div-transparent-2"></div>
         <h3>LÄRARPROGRAMMET</h3>
 
           <h4>Stockholms Universitet</h4>
           <div className="icon-wrapper">
             <IconCalendarTime/>
-            <small>  . okt 2004 — feb 2011</small>
+            <small>okt 2004 — feb 2011</small>
         </div>
 
       <div className="project-info">{lararInfo}</div>

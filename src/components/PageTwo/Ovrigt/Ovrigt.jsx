@@ -1,12 +1,11 @@
 import { IconCar, IconMessageCircle2 } from '@tabler/icons-react'
 import React from 'react'
-import "./ovrigt.scss"
 
 export const Ovrigt = () => {
   return (
     <div className="ovrigt-wrapper">
       <h2>Övriga kompetenser</h2>
-      <div class="divider div-transparent-2"></div>
+      <div className="divider div-transparent-2"></div>
       <div className="komp-wrapper">
         <div className="sprak-wrapper">
           <h3>Språk</h3>

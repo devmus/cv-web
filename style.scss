@@ -1,3 +1,11 @@
+@import "src/components/PageOne/Contact/contact";
+@import "src/components/PageOne/Ongoing/ongoing";
+@import "src/components/PageOne/Profil/profil";
+@import "src/components/PageOne/Projekt/project";
+
+@import "src/components/PageTwo/Arbete/arbete";
+@import "src/components/PageTwo/Ovrigt/ovrigt";
+
 @import "src/components/PageOne/pageone";
 @import "src/components/PageTwo/pagetwo";
 
@@ -5,3 +13,4 @@
 @import "src/assets/css/text";
 @import "src/assets/css/reset";
 @import "src/assets/css/divider";
+@import "src/assets/css/print";

@@ -1,5 +1,4 @@
 import React from 'react'
-import "./project.scss"
 import { IconBook2, IconBrandGithub, IconLink } from '@tabler/icons-react'
 
 export const Projekt = () => {
