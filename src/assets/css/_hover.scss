@@ -1,0 +1,8 @@
+.hover-highlight{
+
+    &:hover{
+    text-shadow: 0.3px 0.3px goldenrod;
+    transition: all 0.15s ease-in-out;
+  }
+}
+
