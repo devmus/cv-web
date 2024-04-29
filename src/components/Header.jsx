@@ -11,15 +11,17 @@ export const Header = () => {
   const toggleLanguage = () => {
     if(language === "se") {
       setLanguage("en")
-      navigate("/en")
+      navigate("/cv-web?lang=en")
     } else {
       setLanguage("se")
-      navigate("/se")
+      navigate("/cv-web?lang=se")
     }
   }
 
   useEffect(() => {
-    const currentPathLang = location.pathname.split('/')[1];
+    const params = new URLSearchParams(location.search);
+    const currentPathLang = params.get('lang');
+    console.log(currentPathLang);
     if (currentPathLang !== language && (currentPathLang === "en" || currentPathLang === "se")) {
       setLanguage(currentPathLang);
     }

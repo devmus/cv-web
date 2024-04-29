@@ -4,19 +4,8 @@ import { Home } from "./pages/Home";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/cv-web",
     element: <Home />,
     errorElement: <Home />,
-    children:[
-      {
-        path: "/se",
-        index: true,
-        element: <Home />
-      },
-      {
-        path: "/en",
-        element: <Home />
-      },
-    ]
   }
 ]);
