@@ -94,6 +94,27 @@ export const Projekt = () => {
               </div>
             </a>
           </li>
+          {/* <li>
+            <h3>Wen tools</h3>
+            <a target="_blank" href="https://devmus.github.io/wen-tools/">
+              <div className="icon-wrapper">
+                <IconLink/>
+                <span>Link</span>
+              </div>
+            </a>
+            <a target="_blank" href="https://github.com/devmus/wen-tools/blob/prod/README.md">
+              <div className="icon-wrapper">
+                <IconBook2/>
+                <span>ReadMe</span>
+              </div>
+            </a>
+            <a target="_blank" href="https://github.com/devmus/wen-tools/tree/prod">
+              <div className="icon-wrapper">
+                <IconBrandGithub/>
+                <span>Github repo</span>
+              </div>
+            </a>
+          </li> */}
           <div className="project-info">{content.wentoolsInfo}</div>
       </ul>
     </div>

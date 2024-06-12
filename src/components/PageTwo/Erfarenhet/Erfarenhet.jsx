@@ -11,7 +11,7 @@ export const Erfarenhet = () => {
           exph3: "Röstmottagare",
           exph4: "Riksdagsvalet, Europavalet",
           exph3no2: "Provledare",
-          exph4no3: "Högskoleprov",
+          exph4no2: "Högskoleprov",
         }
       : { exph2: "Other experiences",
           exph3: "Vote receiver",
