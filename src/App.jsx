@@ -1,14 +1,18 @@
-import { PageOne } from "./components/PageOne/PageOne";
-import { PageTwo } from "./components/PageTwo/PageTwo";
+import { useState } from "react";
+import { LanguageContext } from "./context/LanguageContext";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./Router";
+
 
 function App() {
 
+  const [language, setLanguage] = useState("se");
+
   return (
     <>
-      <div className="page-container">
-      <PageOne />
-      <PageTwo />
-      </div>
+      <LanguageContext.Provider value={{language, setLanguage}}>
+        <RouterProvider router={router} />
+      </LanguageContext.Provider>
     </>
   )
 }

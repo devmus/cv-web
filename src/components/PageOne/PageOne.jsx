@@ -17,7 +17,7 @@ export const PageOne = () => {
     <>
     <div className="page-one-container">
       <div className="page-one">
-        <div className="heading-container">
+        <div className="heading-container hover-highlight">
           <div className="name-title-container">
           <Namn />
           <Titel />

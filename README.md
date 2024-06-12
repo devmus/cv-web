@@ -2,7 +2,7 @@
 
 Mitt CV för ansökan till praktik inom utbildningen till webbutvecklare inom web3 och blockchain på Medieinstitutet.
 
-## Dependancies
+## Dependencies
 
 - Byggt med React.js
 - Designat med SASS
